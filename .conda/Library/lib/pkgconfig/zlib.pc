@@ -1,0 +1,13 @@
+prefix=d:/ak repos/cwiczenia/.conda/Library
+exec_prefix=d:/ak repos/cwiczenia/.conda/Library
+libdir=d:/ak repos/cwiczenia/.conda/Library/lib
+sharedlibdir=d:/ak repos/cwiczenia/.conda/Library/lib
+includedir=d:/ak repos/cwiczenia/.conda/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
